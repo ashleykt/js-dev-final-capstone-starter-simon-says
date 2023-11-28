@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600;700&display=swap');
 html {
   background: url('../assets/background.png') no-repeat center center fixed;
   box-sizing: border-box;
@@ -11,8 +10,8 @@ html {
 }
 
 body {
-  color: yellow;
-  font-family: 'Rubik Microbe', sans-serif;
+  color: FF00FF;
+  font-family: 'Teko', sans-serif;
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -20,7 +19,7 @@ body {
 }
 
 main {
-  background-color: #000;
+  background-color: #FFFF00;
   padding: 40px;
 }
 
@@ -37,7 +36,7 @@ h1 {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: yellow;
+  color: #58024B;
   text-align: center;
   font-size: 14px;
   font-weight: 600;
@@ -48,9 +47,9 @@ h1 {
 }
 
 .start-button:hover {
-  color: greenyellow;
+  color: #e3c9e4;
   font-size: 18px;
-  border-color: greenyellow;
+  border-color: #58024B;
   transform: rotate(5deg);
 }
 
@@ -68,7 +67,7 @@ h1 {
 
 .pad-red {
   border-top-left-radius: 200px;
-  background-color: red;
+  background-color: #F506D1;
 }
 
 .pad-red:hover,
@@ -85,7 +84,7 @@ h1 {
 
 .pad-green {
   border-top-right-radius: 200px;
-  background-color: green;
+  background-color: #9306F5;
 }
 
 .pad-green:hover,
@@ -96,13 +95,13 @@ h1 {
 
 .pad-green:active,
 .pad-green.activated {
-  background-color: #a0ea00;
+  background-color: #B015AE;
   transform: translateY(10px);
 }
 
 .pad-yellow {
   border-bottom-right-radius: 200px;
-  background-color: yellow;
+  background-color: #18F506;
 }
 
 .pad-yellow:hover,
@@ -113,13 +112,13 @@ h1 {
 
 .pad-yellow:active,
 .pad-yellow.activated {
-  background-color: #ffca3d;
+  background-color: #F55206;
   transform: translateY(10px);
 }
 
 .pad-blue {
   border-bottom-left-radius: 200px;
-  background-color: blue;
+  background-color: #06BBF5;
 }
 
 .pad-blue:hover,
