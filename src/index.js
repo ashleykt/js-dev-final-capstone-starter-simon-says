@@ -99,7 +99,7 @@ function padHandler(event) {
 *
 */
 function setLevel(level) {
- level ??= Number(document.querySelector('input[name="difficulty"]:checked').value);
+ level ??= Number(document.querySelector('input[name="difficulty"]').value);
  let rounds = [8,8,14,20,31]
  maxRoundCount = rounds[level];
  if (level > 4) {
